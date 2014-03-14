@@ -2,6 +2,8 @@
 #'
 #'this typically creates
 #' @export 
-data_layout <- function(level, msg, ...){
-  list(..., level=level, msg=msg)
+data_layout <- function(level, msg=NULL, ...){
+  list(data=list(...), level=level, msg=msg)
 }
+
+#data_layout("INFO", a=3)

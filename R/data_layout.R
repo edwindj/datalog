@@ -2,7 +2,7 @@
 #'
 #'this typically creates
 #' @export 
-data_layout <- function(level, msg=NULL, ...){
+data_layout <- function(level, ..., msg=NULL){
   list(data=list(...), level=level, msg=msg)
 }
 

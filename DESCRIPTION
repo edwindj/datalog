@@ -1,0 +1,9 @@
+Package: datalog
+Type: Package
+Title: Data logging
+Version: 0.1
+Date: 2014-03-14
+Author: Edwin de Jonge, Mark van der Loo
+Maintainer: Edwin de Jonge <edwindjonge@gmail.com>
+Description: Data logging
+License: GPL-3

@@ -14,4 +14,4 @@ datalog.info <- function(msg, ..., name=flog.namespace(), prepend="data"){
 
 # testing 1,2,3
 
-datalog.info("testing", a=2)
+#datalog.info("testing", a=2)

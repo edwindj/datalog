@@ -3,5 +3,5 @@
 #'this typically creates
 #' @export 
 data_layout <- function(level, msg, ...){
-  flog.namespace()
+  list(..., level=level, msg=msg)
 }
